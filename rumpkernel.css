@@ -67,4 +67,4 @@ body	{
 a { text-decoration: none; font-weight: bold; }
 a:link { color: #999999; background-color: #000000; }
 a:visited { color: #999999; background-color: #000000; }
-a:hover {text-decoration: underline; color: #999999; background-color: #000000; }
+a:hover {text-decoration: underline overline; color: #999999; background-color: #000000; }
