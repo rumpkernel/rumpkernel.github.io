@@ -49,6 +49,9 @@ body	{
 	padding: 0;
 	margin-left: 0;
 	}
+#header li {
+	margin-bottom: 2px;
+	}
 
 #footer {
 	margin: 2px auto 0px auto;
