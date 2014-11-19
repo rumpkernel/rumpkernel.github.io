@@ -24,8 +24,15 @@ body	{
 #header td.bigtext {
 	font-size: 36px;
 	text-transform: uppercase;
+	text-align: center;
 	font-weight: bold;
 	width: 50%;
+	}
+
+#slogan {
+	font-size: 14px;
+	text-transform: none;
+	font-style: italic;
 	}
 
 #breadtext {
