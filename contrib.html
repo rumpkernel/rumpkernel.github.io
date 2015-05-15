@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="rumpkernel.css" type="text/css" rel="stylesheet">
+<title>Rump Kernel Contribution Guidelines</title>
+</head>
+
+<body>
+<div id="breadtext">
+
+<p>
+The goal of the rump kernel project is to offer free, re-usable,
+kernel-quality drivers.  Additionally, we offer products built on top
+of those drivers, such as the rumprun unikernel.
+</p>
+
+<p>
+The emphasis of development is on a well-architected and modular
+infrastructure providing the maximal amount of features with the minimal
+amount of code.  As a rule of thumb, we do not write, port or maintain
+code that we can use unmodified and readily tested from other sources.
+</p>
+
+
+<h2>Contributions</h2>
+
+<p>
+A contribution to the rump kernel project is defined as a change
+which makes an observable improvement to a repository hosted under
+<a href="http://repo.rumpkernel.org/">repo.rumpkernel.org</a>.
+Contributions include, but are not limited to,
+documentation and code.  All code contributions should be covered by a
+2-clause BSD license.  In exceptional circumstances we will also accept
+a BSD-like license, e.g. when a key part of a contribution consists of
+code from a third party.  Contributions shall be free of all legal
+encumberment such as, but not limited to, software patents.  If you are
+not the owner of the contribution, e.g. in case working for a company,
+you must have appropriate authorization.  Copyright remains with the
+contributors.
+</p>
+
+<p>
+Contributions are divided roughly into two groups: ones needing public
+review and ones not needing it.  Large, architectural and
+controversial changes need public review.  Simple and "obviously correct"
+changes to not need it.  It is not possible to precisely define the
+subjective term "obviously", so when in doubt, it is better to err on
+the side of too much review.  You can find the review process detailed
+below in the section <a href="#reviewprocess">Review process</a>.
+</p>
+
+<p>
+When the appropriate review has been undertaken, if you have push
+access to the repository you are contributing to, you can push your
+change. Otherwise, submit a pull request to the appropriate repository.
+We do not require {Approved,Reviewed,etc}-by tags in the commits.
+</p>
+
+<p>
+We encourage contributions in the size of minimal self-contained
+functional units.  For example, if bug fixes are made while working on
+a larger feature, it is best to submit the bug fixes independently --
+trivial bug fixes do not need review.  Also, if independently useful
+functionality is developed as part of a larger change, contributing that
+functionality as an individual change is encouraged.
+</p>
+
+<a name="reviewprocess"></a>
+<h2>Review process</h2>
+
+<p>
+Review happens by sending a patch to the appropriate mailing list
+(currently always <a href="mailto:rumpkernel-users@freelists.org">rumpkernel-users@freelists.org</a>)
+with a descriptive
+subject.  We prefer a single patch and mail for a single contribution
+instead of a series of mails and patches (nb. you can still issue the
+pull request as a series of commits).  Include a few lines of background
+information on your contribution so that people not intimately familiar
+with the area of your patch can still understand how the patch fits into
+the rump kernel ecosystem.
+</p>
+
+<h2>Bugs reports</h2>
+
+<p>
+Submit bug reports as issues to the appropriate repositories.  If you
+have a proposed fix, follow the contribution procedure as described above.
+A proposed fix is never required for submitting a bug report. If you are
+working on a fix, but it will take some time, submit the bug report and
+note that you are working on a fix.  We would rather have the majority
+of our bugs be publicly known bugs instead of unknown bugs.
+</p>
+
+</div>
+<div id="footer">
+(c) 2015 Rump Kernel Project
+</div>
+</body>
+</html>
