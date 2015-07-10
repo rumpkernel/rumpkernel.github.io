@@ -36,30 +36,28 @@
 <p>
 Rump kernels provide free, portable, componentized, kernel quality drivers
 such as file systems, POSIX system call handlers, PCI device drivers,
-a SCSI protocol stack, virtio and a TCP/IP stack.  These drivers may be
-integrated into existing systems, or run as standalone unikernels on cloud
-hypervisors and embedded systems.
-</p>
-
-<p>
-Several <a href="http://wiki.rumpkernel.org/Platforms">platforms</a> are
-readily supported, e.g. userspace (including Linux, Android, BSDs and more),
-the Xen hypervisor, bare metal (and by extension e.g. KVM and VirtualBox)
-and the Genode OS Framework. Supporting an entirely new platform is a
-matter of implementing the high-level
-<a href="http://man.netbsd.org/cgi-bin/man-cgi?rumpuser++NetBSD-current">rump kernel hypercall interface</a>.
+a SCSI protocol stack, virtio and a TCP/IP stack.
+These drivers may be integrated into existing
+<a href="http://wiki.rumpkernel.org/Platforms">platforms</a>
+or entirely new systems can be built around them.  As a
+full-stack solution based on rump kernels, we offer the
+<a href="http://repo.rumpkernel.org/rumprun">rumprun unikernel</a>
+which can be used run existing POSIX'y software directly on both
+raw hardware and cloud hypervisors such as KVM and Xen.
 </p>
 
 <p>
 The book
 <a href="http://book.rumpkernel.org/">Design and Implementation of
 the Anykernel and Rump Kernels</a> describes the fundamental operating
-principles and terminology.  Further technical information is available
-on the wiki page for <a href="http://wiki.rumpkernel.org/Info%3A-Publications-and-Talks">publications & talks</a>.
-Free support is available via the
-<a href="http://wiki.rumpkernel.org/Info:-Community">community</a>.
-You can also <a href="consultants.html">hire consultants</a>
-for commercial support.
+principles and terminology of rump kernels.  Further
+technical and user-oriented information is available on
+<a href="http://wiki.rumpkernel.org/">the wiki</a>.
+If you cannot find the answers from the above
+sources, free support is available via the <a
+href="http://wiki.rumpkernel.org/Info:-Community">community</a>.
+You can also <a href="consultants.html">hire consultants</a> for
+commercial support.
 </p>
 </div>
 
