@@ -53,6 +53,13 @@ body	{
 	line-height: 2.4ex;
 	}
 
+#breadtext h1 {
+	margin: 20px 80px 20px 80px;
+	font-size: 22pt;
+	font-style: italic;
+	text-decoration: underline;
+	}
+
 #breadtext h2 {
 	margin: 20px 80px 20px 80px;
 	font-size: 18pt;
