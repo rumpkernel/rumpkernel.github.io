@@ -41,29 +41,35 @@
 
 <div id="breadtext">
 <p>
-Rump kernels provide free, portable, componentized, kernel quality drivers
-such as file systems, POSIX system call handlers, PCI device drivers,
-a SCSI protocol stack, virtio and a TCP/IP stack.
-These drivers may be integrated into existing
-<a href="http://wiki.rumpkernel.org/Platforms">platforms</a>
-or entirely new systems can be built around them.  As a
-full-stack solution based on rump kernels, we offer the
-<a href="http://repo.rumpkernel.org/rumprun">Rumprun unikernel</a>
-which can be used run existing POSIX'y software directly on both
-raw hardware and cloud hypervisors such as KVM and Xen.
+Rump kernels enable you to build the software stack you need
+without forcing you to reinvent the wheels.  The key observation is
+that a software stack needs driver-like components which are conventionally
+tightly-knit into operating systems &mdash; even if you do not desire the
+limitations and infrastructure overhead of a given OS, you do need drivers.
+</p>
+
+<p>
+We solve the problem by providing free, reusable, componentized, kernel
+quality drivers such as file systems, POSIX system calls,
+PCI device drivers and TCP/IP and SCSI protocol stacks.
+As a production-ready example, we offer the <a
+href="http://repo.rumpkernel.org/rumprun">Rumprun unikernel</a>,
+which clocks in at a few thousand lines of code plus rump kernel components,
+and supports POSIX'y software directly on both raw hardware and
+cloud hypervisors such as KVM and Xen.  Examples
+of Rump kernels integrated into 3rd party <a
+href="http://wiki.rumpkernel.org/Platforms">platforms</a> also exist.
 </p>
 
 <p>
 The article <a href="http://www.fixup.fi/misc/usenix-login-2015/login_oct15_02_kantee.pdf">Rise and Fall of the Operating System</a>
-provides a high-level motivation for rump kernels.
+provides an extended high-level motivation for rump kernels.
 The book <a href="http://book.rumpkernel.org/">Design and Implementation of
 the Anykernel and Rump Kernels</a> gives a technical description of the
 fundamental operating principles and terminology.  Further
-user-oriented and technical information is available on
-<a href="http://wiki.rumpkernel.org/">the wiki</a>.
-If you cannot find the answers from the above
-sources, free support is available via the <a
-href="http://wiki.rumpkernel.org/Info:-Community">community</a>.
+information is available on
+<a href="http://wiki.rumpkernel.org/">the wiki</a> or interactively
+via the <a href="http://wiki.rumpkernel.org/Info:-Community">community</a>.
 You can also <a href="consultants.html">hire consultants</a> for
 commercial support.
 </p>
